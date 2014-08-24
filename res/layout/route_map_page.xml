@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Route_map_page" >
+
+    <FrameLayout
+        android:id="@+id/map_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.22" />
+
+<!--      <Button
+        android:id="@+id/KN_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.26"
+        android:text="导航开始" />-->
+
+    <Button
+        android:id="@+id/kn_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="导航开始" />
+
+</LinearLayout>

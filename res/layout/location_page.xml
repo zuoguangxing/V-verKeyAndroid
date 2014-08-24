@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about_back"
+    android:orientation="vertical"
+    tools:context=".Location_page" >
+    <TextView
+        android:id="@+id/state_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07"
+        android:text="加载中"
+        android:gravity="center"
+        android:textColor="@color/white" 
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" >
+        <TextView
+        android:id="@+id/bdlc_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.03"
+        android:text="bd09"
+        android:textColor="@color/white"  />
+        <TextView
+        android:id="@+id/bdlongitude_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.07"
+        android:text="加载中"
+        android:textColor="@color/white"  />
+        <TextView
+        android:id="@+id/bdlatitude_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.07"
+        android:text="加载中"
+        android:textColor="@color/white" 
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07" >
+         <TextView
+        android:id="@+id/gjclc_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.03"
+        android:text="GJC02"
+        android:textColor="@color/white"  />
+        <TextView
+        android:id="@+id/gjclongitude_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.07"
+        android:text="加载中"
+        android:textColor="@color/white"  />
+        <TextView
+        android:id="@+id/gjclatitude_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.07"
+        android:text="加载中"
+        android:textColor="@color/white" 
+        />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/adress_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07"
+        android:text="加载中"
+        android:textColor="@color/white" />
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.70"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/vverbase_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:text="至V-ver基地" />
+
+    <Button
+        android:id="@+id/mapLD_bt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:text="未使用" />
+
+    <Button
+        android:id="@+id/LocData_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:text="未使用" />
+</LinearLayout>
