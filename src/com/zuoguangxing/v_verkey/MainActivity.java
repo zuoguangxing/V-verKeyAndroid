@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
 		map_btn=(Button)findViewById(R.id.map_btn);
 		sintent =new Intent(MainActivity.this,com.zuoguangxing.v_verkey.MyLocation.class);
 		startService(sintent);
+		//启动定位服务
 		connect_btn.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
@@ -34,7 +35,6 @@ public class MainActivity extends Activity {
 			    Uri content_url = Uri.parse("http://www.v-ver.com");   
 			    intent.setData(content_url);  
 			    startActivity(intent);
-			    //启动定位服务
 			}
 		});
 		about_btn.setOnClickListener(new OnClickListener() {

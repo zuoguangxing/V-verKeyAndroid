@@ -73,7 +73,7 @@ public class Location_page extends Activity {
 	Handler handler=null;
 	 /** 
      * 我的位置图层 
-     */  
+     */ 
 	//导航引擎初始化
 	private boolean mIsEngineInitSuccess = false;  
 	private NaviEngineInitListener mNaviEngineInitListener = new NaviEngineInitListener() {  
@@ -86,7 +86,7 @@ public class Location_page extends Activity {
 	 
 	        public void engineInitFail() {  
 	        }  
-	    };  
+	    }; 
 	private String getSdcardDir() {  
 	        if (Environment.getExternalStorageState().equalsIgnoreCase(  
 	                Environment.MEDIA_MOUNTED)) {  

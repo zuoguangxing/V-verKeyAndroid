@@ -81,8 +81,8 @@
         <!-- 注册服务们 -->
                  <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="jw8fKRILuYdTqCgCo3VSBYir" /><!--//key:开发者申请的key  -->
-            <!-- 百度api密钥，详情如何申请怎么搞请自己百度 -->
+            android:value="VBsfxmD7EgMnTzH2yDqyCeTF" /><!--//key:开发者申请的key  -->
+            <!-- 百度api密钥，详情如何申请怎么搞自己百度 -->
          <service android:name="com.zuoguangxing.v_verkey.MyLocation" android:enabled="true"></service>
          <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"></service>
          <service android:name="com.baidu.navi.location.f" android:enabled="true"/>
