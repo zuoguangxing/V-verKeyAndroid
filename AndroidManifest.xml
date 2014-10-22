@@ -47,10 +47,11 @@
 <uses-permission android:name="android.permission.RECORD_AUDIO" />
  <!--百度api要的权限终了  -->
     <application
+        
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/FullscreenTheme" >
+        android:theme="@style/AppBaseTheme" >
         <activity
             android:name="com.zuoguangxing.v_verkey.MainActivity"
             android:theme="@style/AppBaseTheme"
@@ -68,7 +69,15 @@
          <activity android:name="com.zuoguangxing.v_verkey.Location_page"
              android:launchMode="singleTask">
          </activity>
+         <activity android:name="userModule.User_page"
+             android:launchMode="singleTask">
+         </activity>
         <activity android:name="com.zuoguangxing.v_verkey.Route_map_page"
+        android:launchMode="singleTask"
+        android:alwaysRetainTaskState="true"
+        android:exported="true">
+        </activity>  
+        <activity android:name="userModule.regiser_page"
         android:launchMode="singleTask"
         android:alwaysRetainTaskState="true"
         android:exported="true">

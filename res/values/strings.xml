@@ -9,4 +9,5 @@
         <string name="about_btn">关于</string>
         <string name="back_btn">返回</string>
         <string name="about">V-verKey\n版本0.1Bate\n作者：左光星</string>
+        <string name="User_btn">个人</string>
 </resources>
